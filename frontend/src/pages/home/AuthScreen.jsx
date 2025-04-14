@@ -59,7 +59,7 @@ const AuthScreen = () => {
 					<div className='flex-1 relative'>
 						<img src='/tv.png' alt='Tv image' className='mt-4 z-20 relative' />
 						<video
-							className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-1/2 z-10'
+							className='absolute top-1/4 left-1/7 -translate-x-1/2 -translate-y-1/2 h-1/2 z-10'
 							playsInline
 							autoPlay={true}
 							muted
