@@ -1,8 +1,13 @@
 import Navbar from '../../components/Navbar'
 import { Link } from 'react-router-dom'
 import { Info, Play } from 'lucide-react'
+import useGetTrendingContent from '../../hooks/useGetTrendingContent';
 
 const HomeScreen = () => {
+
+    const { trendingContent } = useGetTrendingContent();
+    console.log("trendingContent", trendingContent);
+
 
     return (
         <>
@@ -31,16 +36,16 @@ const HomeScreen = () => {
                     </div>
 
                     <div className='flex mt-8'>
-                        <Link to="/watch/123" 
+                        <Link to="/watch/123"
                             className='bg-white hover:bg-white/80 text-black font-bold py-2 px-4 rounded mr-4 flex'>
                             <Play className='size-6 mr-2 fill-black' />
                             Play
                         </Link>
 
-                        <Link to="/watch/123" 
-                            className='bg-white hover:bg-white/80 text-black font-bold py-2 px-4 rounded mr-4 flex'>
+                        <Link to="/watch/123"
+                            className='bg-gray-500 hover:bg-gray-500 text-white py-2 px-4 rounded flex items-center'>
                             <Info className='size-6 mr-2 ' />
-                           More Info
+                            More Info
                         </Link>
 
 

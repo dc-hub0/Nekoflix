@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { LogOut, Menu, Search } from "lucide-react";
 import { useAuthStore } from "../store/authUser";
-
+import { useContentStore } from "../store/content";
 
 const Navbar = () => {
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,12 +10,13 @@ const Navbar = () => {
 
 	const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
+	const { setContentType } = useContentStore();
 
 	return (
 		<header className='max-w-6xl mx-auto flex flex-wrap items-center justify-between p-4 h-20'>
 			<div className='flex items-center gap-10 z-50'>
 				<Link to='/'>
-					<img src='/nekoflix-logo.png' alt='Nekoflix Logo' className='w-32 sm:w-40' />
+					<img src='/nekoflix-logo.png' alt='Netflix Logo' className='w-32 sm:w-40' />
 				</Link>
 
 				{/* desktop navbar items */}
