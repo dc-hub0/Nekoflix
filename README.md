@@ -1,52 +1,39 @@
-# 🐾 Nekoflix – MERN Stack
+<h1 align="center">MERN Netflix Clone 🎬</h1>
 
-A sleek, responsive **Netflix-style web app** built with the **MERN stack (MongoDB, Express.js, React, Node.js)** – reimagined with a **Redmi-inspired aesthetic**. Nekoflix offers a photo-driven layout with a clean, immersive user experience to showcase your favorite shows and movies.
+![Demo App](/frontend/public/screenshot-for-readme.png)
 
----
+About This Course:
 
-## 🌟 Features
+- ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind
+- 🔐 Authentication with JWT
+- 📱 Responsive UI
+- 🎬 Fetch Movies and Tv Show
+- 🔎 Search for Actors and Movies
+- 🎥 Watch Trailers
+- 🔥 Fetch Search History
+- 🐱‍👤 Get Similar Movies/Tv Shows
+- 💙 Awesome Landing Page
+- 🌐 Deployment
+- 🚀 And Many More Cool Features
 
-- 💻 **Full-stack MERN application** with robust backend APIs  
-- 🔐 **Secure JWT Authentication** (Signup, Login, Protected Routes)  
-- 🎨 **Redmi-styled UI**, inspired by Netflix with a unique Nekoflix twist  
-- 🖼️ **Poster-focused design** – high-quality image displays with hover effects  
-- 📱 **Fully responsive** – optimized for all screen sizes and devices  
-- 🔍 Browse, filter, and explore content easily  
-- 🧠 **Redux Toolkit** for efficient global state management  
-- ☁️ **Cloudinary integration** for smooth photo uploads & management
-
----
-
-## 🚀 Tech Stack
-
-| Layer       | Tech Stack                             |
-|-------------|----------------------------------------|
-| **Frontend**| React, Redux Toolkit, Axios            |
-| **Backend** | Node.js, Express                       |
-| **Database**| MongoDB                                |
-| **Auth**    | JWT, bcrypt                            |
-| **Cloud**   | Cloudinary                             |
-| **Styling** | CSS3, Flexbox, Media Queries           |
-
-
----
-
-## 🛠️ Getting Started
+### Setup .env file
 
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/nekoflix.git
+PORT=5000
+MONGO_URI=your_mongo_uri
+NODE_ENV=development
+JWT_SECRET=your_jwt_secre
+TMDB_API_KEY=your_tmdb_api_key
+```
 
-# Navigate to the project directory
-cd nekoflix
+### Run this app locally
 
-# Install dependencies
-npm install && cd client && npm install
+```shell
+npm run build
+```
 
-# Add environment variables (.env) for backend config:
-# - MONGO_URI
-# - JWT_SECRET
-# - CLOUDINARY_NAME, CLOUDINARY_KEY, CLOUDINARY_SECRET
+### Start the app
 
-# Run the app
-npm run dev
+```shell
+npm run start
+```

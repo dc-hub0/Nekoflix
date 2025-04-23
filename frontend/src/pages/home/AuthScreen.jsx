@@ -15,7 +15,7 @@ const AuthScreen = () => {
 		<div className='hero-bg relative'>
 			{/* Navbar */}
 			<header className='max-w-6xl mx-auto flex items-center justify-between p-4 pb-10'>
-				<img src='/nekoflix-logo.png' alt='Nekoflix Logo' className='w-32 md:w-52' />
+				<img src='/netflix-logo.png' alt='Netflix Logo' className='w-32 md:w-52' />
 				<Link to={"/login"} className='text-white bg-red-600 py-1 px-2 rounded'>
 					Sign In
 				</Link>
@@ -59,7 +59,7 @@ const AuthScreen = () => {
 					<div className='flex-1 relative'>
 						<img src='/tv.png' alt='Tv image' className='mt-4 z-20 relative' />
 						<video
-							className='absolute top-1/4 left-1/7 -translate-x-1/2 -translate-y-1/2 h-1/2 z-10'
+							className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-1/2 z-10'
 							playsInline
 							autoPlay={true}
 							muted
@@ -131,7 +131,7 @@ const AuthScreen = () => {
 					<div className='flex-1 relative overflow-hidden'>
 						<img src='/device-pile.png' alt='Device image' className='mt-4 z-20 relative' />
 						<video
-							className='absolute top-2 left-1/6 -translate-x-1/2  h-4/6 z-10
+							className='absolute top-2 left-1/2 -translate-x-1/2  h-4/6 z-10
                max-w-[63%] 
               '
 							playsInline
