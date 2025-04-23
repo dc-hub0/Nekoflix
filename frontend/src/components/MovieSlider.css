@@ -1,0 +1,15 @@
+
+.new {
+    min-width: 250px;
+    position: relative;
+    overflow: hidden;
+    /* transition-transform: 0.3s ease-in-out;  Added transition */
+  }
+  
+  /* When hovering over the group, scale the image */
+  .new:hover {
+    transform: scale(1.25);  /* Scale effect on hover */
+  }
+
+
+  
