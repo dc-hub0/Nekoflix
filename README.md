@@ -1,6 +1,6 @@
 # 🎥 Nekoflix
 
-Welcome to **Nekoflix** — a full-stack movie streaming platform built with modern web technologies. Fast, responsive, and packed with powerful features, Nekoflix is designed to deliver an immersive movie-browsing experience.
+Welcome to **Nekoflix** — a Full-Stack movie streaming platform built with modern web technologies. Fast, responsive, and packed with powerful features, Nekoflix is designed to deliver an immersive movie-browsing experience.
 
 ---
 
